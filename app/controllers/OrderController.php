@@ -8,12 +8,4 @@ class OrderController extends Controller {
     parent::__construct($route);
     $this->view->layout = 'admin';
   }
-
-  public function adminAction() {
-    $this->view->render('Админ панель');
-  }
-
-  public function loginAction() {
-    $this->view->render('Логин');
-  }
 }
