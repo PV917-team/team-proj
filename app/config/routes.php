@@ -1,5 +1,7 @@
 <?php
 
+// Мап лист по сайту
+
 return [
     // MainController
     '' => [
@@ -30,6 +32,10 @@ return [
     'admin/add' => [
         'controller' => 'admin',
         'action' => 'add'
+    ],
+    'admin/edit' => [
+        'controller' => 'admin',
+        'action' => 'edit'
     ],
     // OrderController
     'admin/orders' => [
