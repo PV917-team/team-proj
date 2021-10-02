@@ -10,7 +10,6 @@ class View {
     }
 
     public function render($title, $vars = []) {
-        // debug($vars);
         extract($vars);
         $path = VIEWS_PATH.$this->path.'.php';
         if (file_exists($path)) {

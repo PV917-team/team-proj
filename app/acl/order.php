@@ -5,6 +5,9 @@ return [
       // 
     ],
     'admin' => [
-        //
+        'add',
+        'delete',
+        'orders',
+        'edit'
     ]
 ];

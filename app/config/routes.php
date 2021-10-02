@@ -27,7 +27,15 @@ return [
         'controller' => 'admin',
         'action' => 'delete'
     ],
+    'admin/add' => [
+        'controller' => 'admin',
+        'action' => 'add'
+    ],
     // OrderController
+    'admin/orders' => [
+        'controller' => 'order',
+        'action' => 'orders'
+    ],
     'admin/order/add' => [
         'controller' => 'order',
         'action' => 'add'
@@ -39,9 +47,5 @@ return [
     'admin/order/delete' => [
         'controller' => 'order',
         'action' => 'delete'
-    ],
-    'admin/orders' => [
-        'controller' => 'admin',
-        'action' => 'orders'
     ],
 ];
