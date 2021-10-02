@@ -6,10 +6,14 @@ return [
         'controller' => 'main',
         'action' => 'index'
     ],
+    'list' => [
+        'controller' => 'main',
+        'action' => 'list'
+    ],
     // AdminController
     'admin' => [
         'controller' => 'admin',
-        'action' => 'index'
+        'action' => 'admin'
     ],
     'login' => [
         'controller' => 'admin',

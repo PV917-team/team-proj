@@ -6,6 +6,7 @@ return [
     ],
     'admin' => [
         'logout',
+        'admin',
         'admin/add',
         'admin/edit',
         'admin/delete',
