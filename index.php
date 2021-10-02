@@ -1,6 +1,7 @@
 <?php
 use app\core\Router;
 
+const URL = '//team-proj/';
 const ROOT = __DIR__.'/';
 const APP_PATH = ROOT.'app/';
 const CONFIG_PATH = ROOT.'app/config/';
