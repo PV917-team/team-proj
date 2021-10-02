@@ -1,0 +1,15 @@
+{
+    "name": "ilyas/team-proj",
+    "autoload": {
+        "psr-4": {
+            "Ilyas\\TeamProj\\": "public/src"
+        }
+    },
+    "authors": [
+        {
+            "name": "ilyas",
+            "email": "tenoba9@gmail.com"
+        }
+    ],
+    "require": {}
+}
