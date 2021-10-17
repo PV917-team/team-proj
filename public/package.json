@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@splidejs/splide": "^3.1.7",
+    "bootstrap": "^5.1.3"
+  }
+}

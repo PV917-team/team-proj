@@ -1,0 +1,23 @@
+body a {
+  text-decoration: none;
+  color: #999999;
+}
+
+body hr {
+  margin: 0;
+}
+
+#sub-header {
+  background-color: #f9f9f9;
+  color: #999999;
+}
+
+#location-sel {
+  background-color: #f9f9f9;
+  border: none;
+}
+
+#bag span {
+  font-size: 3rem;
+  color: #999999;
+}
