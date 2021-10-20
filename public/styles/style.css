@@ -21,3 +21,8 @@ body hr {
   font-size: 3rem;
   color: #999999;
 }
+
+#hits {
+  color: white;
+  background-color: #3360a1;
+}

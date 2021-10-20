@@ -62,57 +62,145 @@
   <!-- Слайдер -->
   <div class="container mt-3">
     <div class="splide">
-    <div class="splide__track">
-      <ul class="splide__list">
-        <li class="splide__slide">
-          <img src="https://w.wallhaven.cc/full/72/wallhaven-72rd8e.jpg" alt="">
-        </li>
-        <li class="splide__slide">
-          <img src="https://w.wallhaven.cc/full/z8/wallhaven-z8dg9y.png" alt="">
-        </li>
-        <li class="splide__slide">
-          <img src="https://w.wallhaven.cc/full/j3/wallhaven-j3y3jm.png" alt="">
-        </li>
-      </ul>
-    </div>
-    <div class="splide__progress">
-      <div class="splide__progress__bar">
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide">
+            <img src="https://w.wallhaven.cc/full/72/wallhaven-72rd8e.jpg" alt="">
+          </li>
+          <li class="splide__slide">
+            <img src="https://w.wallhaven.cc/full/z8/wallhaven-z8dg9y.png" alt="">
+          </li>
+          <li class="splide__slide">
+            <img src="https://w.wallhaven.cc/full/72/wallhaven-72rd8e.jpg" alt="">
+          </li>
+          <li class="splide__slide">
+            <img src="https://w.wallhaven.cc/full/z8/wallhaven-z8dg9y.png" alt="">
+          </li>
+        </ul>
+      </div>
+      <div class="splide__progress">
+        <div class="splide__progress__bar">
+        </div>
       </div>
     </div>
   </div>
-  </div>
   <!-- Новинки -->
-  <div class="container mt-3">
+  <div class="container mt-5">
     <h1 class="mb-3">Новинки</h1>
     <div class="new-splide">
       <div class="splide__track">
         <ul class="splide__list">
           <li class="splide__slide">
-            <a href="" class="d-block me-3">
-              <div class="border rounded">
-                <p>Первое название</p>
-                <p>Первое название</p>
-                <p>Первое название</p>
-              </div>
-            </a>
+            <div class="p-3 border me-3">
+              Slide 1
+            </div>
           </li>
           <li class="splide__slide">
-            <a href="" class="d-block me-3">
-              <div class="border rounded">
-                <p>Первое название</p>
-                <p>Первое название</p>
-                <p>Первое название</p>
-              </div>
-            </a>
+            <div class="p-3 border me-3">
+              Slide 2
+            </div>
           </li>
           <li class="splide__slide">
-            <a href="" class="d-block me-3">
-              <div class="border rounded">
-                <p>Первое название</p>
-                <p>Первое название</p>
-                <p>Первое название</p>
+            <div class="p-3 border me-3">
+              Slide 3
+            </div>
+          </li>
+          <li class="splide__slide">
+            <div class="p-3 border me-3">
+              Slide 4
+            </div>
+          </li>
+          <li class="splide__slide">
+            <div class="p-3 border me-3">
+              Slide 5
+            </div>
+          </li>
+          <li class="splide__slide">
+            <div class="p-3 border">
+              Slide 6
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- Хиты продаж -->
+  <div id="hits">
+    <div class="container mt-5">
+      <h1 class="mb-3 mt-3">Хиты продаж</h1>
+      <div class="hits-splide">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">
+              <div class="p-3 border me-3">
+                Slide 1
               </div>
-            </a>
+            </li>
+            <li class="splide__slide">
+              <div class="p-3 border me-3">
+                Slide 2
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="p-3 border me-3">
+                Slide 3
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="p-3 border me-3">
+                Slide 4
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="p-3 border me-3">
+                Slide 5
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="p-3 border">
+                Slide 6
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Скоро в продаже -->
+  <div class="container mt-5">
+    <h1 class="mb-3 mt-3">Скоро в продаже</h1>
+    <div class="cmngs-splide">
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide">
+            <div class="p-3 border me-3">
+              Slide 1
+            </div>
+          </li>
+          <li class="splide__slide">
+            <div class="p-3 border me-3">
+              Slide 2
+            </div>
+          </li>
+          <li class="splide__slide">
+            <div class="p-3 border me-3">
+              Slide 3
+            </div>
+          </li>
+          <li class="splide__slide">
+            <div class="p-3 border me-3">
+              Slide 4
+            </div>
+          </li>
+          <li class="splide__slide">
+            <div class="p-3 border me-3">
+              Slide 5
+            </div>
+          </li>
+          <li class="splide__slide">
+            <div class="p-3 border">
+              Slide 6
+            </div>
           </li>
         </ul>
       </div>
@@ -121,29 +209,45 @@
   <script src="/public/node_modules/@splidejs/splide/dist/js/splide.js"></script>
   <script>
     // https://splidejs.com/
-    const splide = new Splide('.splide', {
+
+    // Слайдер
+    new Splide('.splide', {
       type: 'slide',
       autoplay: 'playing',
       rewind: true,    // Повторы
       interval: 3500,  // Интервалл перехода
       autoHeight: true,
       height: '350px',
-      width: '100%'
-    });
+      width: '100%',
+    }).mount();
 
-    splide.mount();
-
-    // 
-    const newSplide = new Splide('.new-splide', {
+    // Новинки
+    new Splide('.new-splide', {
       type: 'slide',
       perPage: 6,
       width: '100%',
-      height: '350px',
+      height: '150px',
       arrows: true,
       pagination: false
-    });
+    }).mount();
 
-    newSplide.mount();
+    // Хиты продаж
+    new Splide('.hits-splide', {
+      type: 'slide',
+      perPage: 6,
+      width: '100%',
+      height: '200px',
+      pagination: false
+    }).mount();
+
+    // Скоро в продаже
+    new Splide('.cmngs-splide', {
+      type: 'slide',
+      perPage: 6,
+      width: '100%',
+      height: '200px',
+      pagination: false
+    }).mount();
   </script>
 </body>
 </html>
