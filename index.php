@@ -1,7 +1,6 @@
 <?php
 use app\core\Router;
 
-const URL = '//team-proj/';
 const ROOT = __DIR__.'/';
 const APP_PATH = ROOT.'app/';
 const CONFIG_PATH = ROOT.'app/config/';
@@ -16,6 +15,7 @@ const PUBLIC_STYLES = ROOT.'public/styles/';
 
 spl_autoload_register(function ($class) {
     $path = str_replace('\\', '/', $class . '.php');
+    // echo $path.'</br>';
     if (file_exists($path)) {
         require $path;
     }

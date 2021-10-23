@@ -1,7 +1,5 @@
 <?php
 
-// Мап лист по сайту
-
 return [
     // MainController
     '' => [
